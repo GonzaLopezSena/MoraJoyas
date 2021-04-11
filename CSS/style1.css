@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+.titulos{ 
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    font-style: italic;
+    text-align: center;    
+}
+.parrafo{
+    font-style: italic;
+    font-size: 150%;
+}
+
+.fotoHome{
+    text-align: center;
+    width: 100%;
+    min-width: 100px;
+    max-width: 500px;
+    
+    }
+    .navegacionPadre{ 
+        display: flex;
+        width: 100% ;
+        flex-direction: row;
+        justify-content: center;
+        background-image: linear-gradient(to left, lightpink , violet );
+    }
+    
+    
+.fondo{
+    background-color: antiquewhite;
+}
+
+.navegacionHijo{
+    display: inline;
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+    margin: 5px;
+    
+}
+
+.tablaProductos{
+    text-align: center;
+}
+th{
+    color: lightpink;
+    background-color: gray;
+}
+
+td{
+    color: lightpink;
+    background-color: gray;
+}
+.footer{
+    background-image: linear-gradient(to left, lightpink , violet );
+}
+.logoInstagram{
+    width: 30px;
+    height: 30px;
+    margin-left: 90%;    
+}
+
+.imagenNovedades{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: black
+    border 3px solid lightpink;}
+
+.imagenNovedades:hover{
+    padding: 30px;
+}
+    .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    }
+    .grid-container2 {
+        display: grid;
+        grid-template-columns: auto auto;
+        }
+.grid-logo {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    }
+.grid-navegador{
+grid-row-start: 2;
+grid-row-end: 2;
+grid-column-start: 1;
+grid-column-end: 3;
+}
+.grid-titulo{
+grid-row-start: 3;
+grid-row-end: 3;
+grid-column-start: 1;
+grid-column-end: 3;
+}
+.grid-item1{
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+    margin-top: 27%;
+    }
+.grid-item2{
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    }
+.grid-footer{
+grid-row-start: 5;
+grid-row-end: 5;
+grid-column-start: 1;
+grid-column-end: 3;
+}
+.titulos {
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    }
+.label{
+    display: inline-block;
+    width: 100px;
+}
+.address{
+    font-size: medium !important;
+    font-family: 'Dancing Script', cursive !important
+}
+.copyright{
+    font-size: smaller;
+    font-family: 'Dancing Script', cursive
+}
+.logo{
+    width: 100%;
+    height: 200px;
+}
+.lista{
+    display: inline;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 1%;
+    padding: 1%;
+}
+li {
+    display: inline;
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+    margin: 5px;
+}
+.navbar{
+    background-image: linear-gradient(to left, lightpink , violet );
+    padding-top: none !important;
+    padding-bottom: none !important;
+
+}
+.parrafoIndex{
+    font-style: italic;
+    font-size: 200%;
+    text-align: center;
+    color: black
+}
+#carouselExampleIndicators{
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: 25%;
+}
+.mb-3{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.col-12{
+    display: flex;
+    justify-content: center;
+}
+.nav-link{
+    color: black;
+    font-size: medium;
+}
+.Productos__parrafo--frase{
+    text-align: center;
+    font-size: large;
+    font-family: cursive;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.Nosotros__parrafo{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.Nosotros__mapa{
+    margin-left: 28%;
+}
+.productos__parrafo--descripcion{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.collares{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-display: bold;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.anillos{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-display: bold;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.dijes{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-display: bold;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.pulseras{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-display: bold;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
